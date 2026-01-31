@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.section1 {
+    position: sticky;
+    top :0;
+    z-index: 5;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    background-color: #333333;
+
+}
+
+.nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s, transform 0.3s ;
+}
+
+
+.s1o {
+    color: #333333;
+}
+
+.nav-dropdown-list {
+    display: none;
+    width: 200px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.list {
+    padding: 5px 0 5px 5px;
+    transition: all 0.2s ease 0.1s;
+}
+
+.list:hover {
+    background-color: orange;
+    transform: scale(1.01);
+
+}
+
+.nav-dropdown {
+    color: white;
+    transition: all 0.2s ease 0.01s;
+}
+
+.nav-dropdown:hover {
+    position: relative;
+    color: orange;
+}
+
+.nav-dropdown:hover  .nav-dropdown-list {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.nav-a:hover {
+    color: orange;
+}
+
+
+/* section 1 is completed */
+
+.section2 {
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fec20c;
+}
+
+.s2h {
+    color: #333333;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s ease;
+}
+
+.s2h:hover {
+    transform: translateY(-4px);
+    text-shadow: 0px 4px 4px rgba(51, 51, 51, 0.5);
+}
+
+/* section 2 is completed */
+
+.section3 {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    height: 1000px;
+}
+
+.s3h1 {
+    color: #ff9900;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1400px;
+    text-align: center;
+}
+
+.s3img {
+    background-image: url(aboutUsPic.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 520px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(51, 51, 51, 0.2);
+}
+
+.s3p {
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 1400px;
+    text-align: center;
+}
+
+/* section 3 is completed */
+
+.section4 {
+    background-color: #333333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4h {
+    color: #f4f4f4;
+    
+}

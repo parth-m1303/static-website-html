@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.section1 {
+    position: sticky;
+    top :0;
+    z-index: 5;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: beige;
+    background-color: #333333;
+
+}
+
+.nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 800px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s, transform 0.3s ;
+}
+
+
+
+.s1o {
+    color: #333333;
+}
+
+.nav-dropdown-list {
+    display: none;
+    width: 200px;
+    background-color: #333333;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.list {
+    padding: 5px 0 5px 5px;
+    transition: all 0.2s ease 0.1s;
+}
+
+.list:hover {
+    background-color: orange;
+    transform: scale(1.01);
+
+}
+
+.nav-dropdown {
+    color: white;
+    transition: all 0.2s ease 0.01s;
+}
+
+.nav-dropdown:hover {
+    position: relative;
+    color: orange;
+}
+
+.nav-dropdown:hover  .nav-dropdown-list {
+    display: block;
+    position: absolute;
+    color: white;
+}
+
+.nav-a:hover {
+    color: orange;
+}
+
+
+/* section 1 ends here */  
+
+.s2m1 {
+    background-color: #fec20c;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2m1h1 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 1s ease 0.1s;
+}
+
+.s2m1h1:hover {
+    transform: scale(1.1);
+    color: #333333;
+    text-shadow: 5px 5px 10px rgba(0,0,0,1);
+    
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    background-color: #FFF1CA;
+}
+
+.s3m {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 1300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.s3m1 {
+    height: 500px;
+    width: 250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+
+.s3m1:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 4px rgba(225, 225, 0, 0.5);
+}
+
+.section4 {
+    background-color: #333333;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
